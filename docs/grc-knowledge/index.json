@@ -1,0 +1,372 @@
+[
+  {
+    "id": "NIST-800-53-AC",
+    "title": "NIST SP 800-53 Rev 5 — AC Family (Access Control)",
+    "content": "Access Control: Controls for enforcing access policies, least privilege, session termination, and remote access. Key controls: AC-1 Policy, AC-2 Account Management, AC-3 Access Enforcement, AC-6 Least Privilege, AC-7 Unsuccessful Logon Attempts, AC-17 Remote Access. These controls apply to federal information systems and are widely adopted as best practice."
+  },
+  {
+    "id": "NIST-800-53-AT",
+    "title": "NIST SP 800-53 Rev 5 — AT Family (Awareness and Training)",
+    "content": "Awareness and Training: Controls for security training, role-based education, and insider threat awareness. AT-2 Security Awareness Training, AT-3 Role-based Training, AT-4 Training Records. Ensures personnel understand security roles and responsibilities."
+  },
+  {
+    "id": "NIST-800-53-AU",
+    "title": "NIST SP 800-53 Rev 5 — AU Family (Audit and Accountability)",
+    "content": "Audit and Accountability: Controls for audit logging, protection of logs, and audit review/analysis. AU-2 Audit Events, AU-3 Content of Audit Records, AU-6 Audit Review, AU-12 Audit Generation. Central to detecting and investigating security incidents."
+  },
+  {
+    "id": "NIST-800-53-CA",
+    "title": "NIST SP 800-53 Rev 5 — CA Family (Assessment, Authorization, and Monitoring)",
+    "content": "Assessment, Authorization, and Monitoring: Controls for security assessments, continuous monitoring, and plan of action. CA-2 Security Assessments, CA-7 Continuous Monitoring, CA-9 Internal System Connections. Supports authorization decisions."
+  },
+  {
+    "id": "NIST-800-53-CM",
+    "title": "NIST SP 800-53 Rev 5 — CM Family (Configuration Management)",
+    "content": "Configuration Management: Controls for baseline configuration, change management, and configuration monitoring. CM-2 Baseline Configuration, CM-3 Configuration Change Control, CM-6 Configuration Settings. Ensures system integrity and security."
+  },
+  {
+    "id": "NIST-800-53-CP",
+    "title": "NIST SP 800-53 Rev 5 — CP Family (Contingency Planning)",
+    "content": "Contingency Planning: Controls for contingency plans, backup, recovery, and testing. CP-2 Contingency Plan, CP-9 Information System Backup, CP-10 Recovery and Reconstitution. Critical for business continuity and disaster recovery."
+  },
+  {
+    "id": "NIST-800-53-IA",
+    "title": "NIST SP 800-53 Rev 5 — IA Family (Identification and Authentication)",
+    "content": "Identification and Authentication: Controls for user identification, device authentication, and multifactor authentication. IA-2 Identification and Authentication (Organizational Users), IA-5 Authenticator Management, IA-8 Identification and Authentication (Non-Organizational Users)."
+  },
+  {
+    "id": "NIST-800-53-IR",
+    "title": "NIST SP 800-53 Rev 5 — IR Family (Incident Response)",
+    "content": "Incident Response: Controls for incident handling, reporting, and testing. IR-4 Incident Handling, IR-6 Incident Reporting, IR-8 Incident Response Plan. Forms the basis for an organizational security operations capability."
+  },
+  {
+    "id": "NIST-800-53-MA",
+    "title": "NIST SP 800-53 Rev 5 — MA Family (Maintenance)",
+    "content": "Maintenance: Controls for system maintenance, tools, and personnel. MA-2 Controlled Maintenance, MA-4 Nonlocal Maintenance. Ensures maintenance activities do not compromise security."
+  },
+  {
+    "id": "NIST-800-53-MP",
+    "title": "NIST SP 800-53 Rev 5 — MP Family (Media Protection)",
+    "content": "Media Protection: Controls for media sanitization, storage, and transport. MP-6 Media Sanitization, MP-4 Media Storage. Prevents unauthorized disclosure of sensitive information on media."
+  },
+  {
+    "id": "NIST-800-53-PE",
+    "title": "NIST SP 800-53 Rev 5 — PE Family (Physical and Environmental Protection)",
+    "content": "Physical and Environmental Protection: Controls for physical access, monitoring, and emergency power. PE-3 Physical Access Control, PE-6 Monitoring Physical Access, PE-11 Emergency Power. Protects facilities and hardware."
+  },
+  {
+    "id": "NIST-800-53-PL",
+    "title": "NIST SP 800-53 Rev 5 — PL Family (Planning)",
+    "content": "Planning: Controls for security plans, rules of behavior, and architecture. PL-2 System Security Plan, PL-4 Rules of Behavior, PL-8 Information Security Architecture. Documents security requirements and responsibilities."
+  },
+  {
+    "id": "NIST-800-53-PM",
+    "title": "NIST SP 800-53 Rev 5 — PM Family (Program Management)",
+    "content": "Program Management: Controls for security program plan, risk management strategy, and program oversight. PM-1 Information Security Program Plan, PM-9 Risk Management Strategy. Provides organization-wide governance."
+  },
+  {
+    "id": "NIST-800-53-PS",
+    "title": "NIST SP 800-53 Rev 5 — PS Family (Personnel Security)",
+    "content": "Personnel Security: Controls for personnel screening, termination, and transfer. PS-3 Personnel Screening, PS-4 Personnel Termination, PS-5 Personnel Transfer. Mitigates insider risk."
+  },
+  {
+    "id": "NIST-800-53-RA",
+    "title": "NIST SP 800-53 Rev 5 — RA Family (Risk Assessment)",
+    "content": "Risk Assessment: Controls for risk assessments, vulnerability scanning, and privacy impact assessments. RA-3 Risk Assessment, RA-5 Vulnerability Scanning, RA-7 Risk Response. Foundational for risk-based decision making."
+  },
+  {
+    "id": "NIST-800-53-SA",
+    "title": "NIST SP 800-53 Rev 5 — SA Family (System and Services Acquisition)",
+    "content": "System and Services Acquisition: Controls for acquisition processes, developer security testing, and supply chain risk. SA-3 System Development Life Cycle, SA-11 Developer Security Testing, SA-12 Supply Chain Protection."
+  },
+  {
+    "id": "NIST-800-53-SC",
+    "title": "NIST SP 800-53 Rev 5 — SC Family (System and Communications Protection)",
+    "content": "System and Communications Protection: Controls for boundary protection, cryptographic protection, and denial of service protection. SC-7 Boundary Protection, SC-13 Cryptographic Protection, SC-28 Protection of Information at Rest."
+  },
+  {
+    "id": "NIST-800-53-SI",
+    "title": "NIST SP 800-53 Rev 5 — SI Family (System and Information Integrity)",
+    "content": "System and Information Integrity: Controls for flaw remediation, malicious code protection, and security alerts. SI-2 Flaw Remediation, SI-3 Malicious Code Protection, SI-4 Information System Monitoring. Maintains integrity of systems and data."
+  },
+  {
+    "id": "NIST-800-53-SR",
+    "title": "NIST SP 800-53 Rev 5 — SR Family (Supply Chain Risk Management)",
+    "content": "Supply Chain Risk Management: Controls for supply chain risk assessment, inspection of systems, and tamper resistance. SR-3 Supply Chain Controls and Processes, SR-6 Supplier Assessments. Addresses third-party and hardware risks."
+  },
+  {
+    "id": "NIST-CSF-GOVERN",
+    "title": "NIST CSF 2.0 — Govern Function",
+    "content": "Govern: Establish organizational context, cybersecurity supply chain risk management, and policies. Categories include Organizational Context, Risk Management Strategy, Cybersecurity Supply Chain Risk Management, Roles and Responsibilities, Policies, and Oversight."
+  },
+  {
+    "id": "NIST-CSF-IDENTIFY",
+    "title": "NIST CSF 2.0 — Identify Function",
+    "content": "Identify: Asset management, risk assessment, and business environment understanding. Categories include Asset Management, Risk Assessment, Improvement, and Business Environment. Establishes the foundation for all other CSF functions."
+  },
+  {
+    "id": "NIST-CSF-PROTECT",
+    "title": "NIST CSF 2.0 — Protect Function",
+    "content": "Protect: Identity management, access control, awareness training, and data security. Categories include Identity Management and Access Control, Awareness and Training, Data Security, Platform Security, and Technology Infrastructure Resilience."
+  },
+  {
+    "id": "NIST-CSF-DETECT",
+    "title": "NIST CSF 2.0 — Detect Function",
+    "content": "Detect: Continuous monitoring, anomaly detection, and security event analysis. Categories include Continuous Monitoring, Adverse Event Analysis. Enables timely discovery of cybersecurity events."
+  },
+  {
+    "id": "NIST-CSF-RESPOND",
+    "title": "NIST CSF 2.0 — Respond Function",
+    "content": "Respond: Incident response planning, communications, analysis, and mitigation. Categories include Incident Management, Incident Analysis, Incident Response Reporting and Communication, and Incident Mitigation."
+  },
+  {
+    "id": "NIST-CSF-RECOVER",
+    "title": "NIST CSF 2.0 — Recover Function",
+    "content": "Recover: Recovery planning, improvements, and communications during restoration. Categories include Incident Recovery Plan Execution and Incident Recovery Communication. Ensures timely restoration of systems and data."
+  },
+  {
+    "id": "HIPAA-ADMIN",
+    "title": "HIPAA Security Rule — Administrative Safeguards",
+    "content": "Administrative Safeguards (45 CFR §164.308): Security management process, assigned security responsibility, workforce security, information access management, security awareness and training, security incident procedures, contingency plan, evaluation, and business associate contracts."
+  },
+  {
+    "id": "HIPAA-PHYSICAL",
+    "title": "HIPAA Security Rule — Physical Safeguards",
+    "content": "Physical Safeguards (45 CFR §164.310): Facility access controls, workstation use, workstation security, and device/media controls. Protect physical access to electronic protected health information (ePHI)."
+  },
+  {
+    "id": "HIPAA-TECHNICAL",
+    "title": "HIPAA Security Rule — Technical Safeguards",
+    "content": "Technical Safeguards (45 CFR §164.312): Access control, audit controls, integrity controls, person/entity authentication, and transmission security. Technical mechanisms to protect ePHI and control access."
+  },
+  {
+    "id": "HIPAA-ORGANIZATIONAL",
+    "title": "HIPAA Security Rule — Organizational Requirements",
+    "content": "Organizational Requirements (§164.314): Business associate contracts and other arrangements, requirements for group health plans. Ensure business associates appropriately safeguard ePHI."
+  },
+  {
+    "id": "HIPAA-POLICIES",
+    "title": "HIPAA Security Rule — Policies and Procedures",
+    "content": "Policies and Procedures (§164.316): Documentation, review, and updates of security policies and procedures. Maintains the administrative framework for HIPAA compliance."
+  },
+  {
+    "id": "SOC2-CC-SECURITY",
+    "title": "SOC 2 TSC 2017 — Common Criteria Security",
+    "content": "Common Criteria – Security (CC1–CC9): Logical and physical access controls, system operations, change management, and risk mitigation. CC1: Control Environment, CC2: Communication and Information, CC3: Risk Assessment, CC4: Monitoring Activities, CC5: Control Activities, CC6: Logical and Physical Access, CC7: System Operations, CC8: Change Management, CC9: Risk Mitigation."
+  },
+  {
+    "id": "SOC2-CC-AVAILABILITY",
+    "title": "SOC 2 TSC 2017 — Common Criteria Availability",
+    "content": "Common Criteria – Availability (A1–A3): System monitoring, redundancy, and recovery to meet availability commitments. A1: Availability commitments are documented and communicated. A2: System capacity and availability are monitored. A3: Recovery plans support availability."
+  },
+  {
+    "id": "SOC2-CC-PROCESSING",
+    "title": "SOC 2 TSC 2017 — Common Criteria Processing Integrity",
+    "content": "Common Criteria – Processing Integrity (PI1–PI5): System processing completeness, accuracy, and timeliness. PI1: Processing inputs, PI2: Processing accuracy, PI3: Output verification, PI4: Data retention, PI5: Error correction."
+  },
+  {
+    "id": "SOC2-CC-CONFIDENTIALITY",
+    "title": "SOC 2 TSC 2017 — Common Criteria Confidentiality",
+    "content": "Common Criteria – Confidentiality (C1–C3): Identification and protection of confidential information. C1: Confidential information is identified, C2: Access to confidential information is restricted, C3: Confidential information is protected during transmission, storage, and disposal."
+  },
+  {
+    "id": "SOC2-CC-PRIVACY",
+    "title": "SOC 2 TSC 2017 — Common Criteria Privacy",
+    "content": "Common Criteria – Privacy (P1–P8): Notice, choice, consent, collection, retention, and disposal of personal information. P1: Privacy notice, P2: Choice and consent, P3: Collection limitation, P4: Use limitation, P5: Retention limitation, P6: Access and correction, P7: Disclosure to third parties, P8: Security for privacy."
+  },
+  {
+    "id": "ISO27001-OVERVIEW",
+    "title": "ISO 27001:2022 — Overview",
+    "content": "ISO/IEC 27001:2022 is the international standard for information security management systems (ISMS). It specifies requirements for establishing, implementing, maintaining, and continually improving an ISMS. The 2022 version introduced a new structure with 93 Annex A controls organized into 4 themes: Organizational (37), People (8), Physical (14), and Technological (34)."
+  },
+  {
+    "id": "ISO27001-CLAUSE-4",
+    "title": "ISO 27001:2022 — Clause 4: Context of the Organization",
+    "content": "Clause 4 – Context of the Organization: Understanding the organization, interested parties, and scope of the ISMS. Requires determining external and internal issues relevant to the ISMS."
+  },
+  {
+    "id": "ISO27001-CLAUSE-5",
+    "title": "ISO 27001:2022 — Clause 5: Leadership",
+    "content": "Clause 5 – Leadership: Top management commitment, information security policy, roles, responsibilities, and authorities. Management must demonstrate leadership and allocate resources."
+  },
+  {
+    "id": "ISO27001-CLAUSE-6",
+    "title": "ISO 27001:2022 — Clause 6: Planning",
+    "content": "Clause 6 – Planning: Actions to address risks and opportunities, information security objectives, and planning to achieve them. Includes risk assessment and risk treatment planning."
+  },
+  {
+    "id": "ISO27001-CLAUSE-7",
+    "title": "ISO 27001:2022 — Clause 7: Support",
+    "content": "Clause 7 – Support: Resources, competence, awareness, communication, and documented information. Ensures the ISMS has adequate support to operate effectively."
+  },
+  {
+    "id": "ISO27001-CLAUSE-8",
+    "title": "ISO 27001:2022 — Clause 8: Operation",
+    "content": "Clause 8 – Operation: Operational planning and control, risk assessment, and risk treatment. Implements the planned information security processes and controls."
+  },
+  {
+    "id": "ISO27001-CLAUSE-9",
+    "title": "ISO 27001:2022 — Clause 9: Performance Evaluation",
+    "content": "Clause 9 – Performance Evaluation: Monitoring, measurement, analysis, evaluation, internal audit, and management review. Assesses ISMS performance and effectiveness."
+  },
+  {
+    "id": "ISO27001-CLAUSE-10",
+    "title": "ISO 27001:2022 — Clause 10: Improvement",
+    "content": "Clause 10 – Improvement: Nonconformity, corrective action, and continual improvement. Addresses findings and enhances the ISMS over time."
+  },
+  {
+    "id": "ISO27001-ANNEX-A-ORGANIZATIONAL",
+    "title": "ISO 27001:2022 — Annex A: Organizational Controls (A.5)",
+    "content": "Annex A – Organizational Controls (A.5): 37 controls including policies for information security, information security roles and responsibilities, asset management, access control policy, supplier relationships, incident management, and business continuity."
+  },
+  {
+    "id": "ISO27001-ANNEX-A-PEOPLE",
+    "title": "ISO 27001:2022 — Annex A: People Controls (A.6)",
+    "content": "Annex A – People Controls (A.6): 8 controls including screening, terms and conditions of employment, awareness, remote working, and confidentiality agreements."
+  },
+  {
+    "id": "ISO27001-ANNEX-A-PHYSICAL",
+    "title": "ISO 27001:2022 — Annex A: Physical Controls (A.7)",
+    "content": "Annex A – Physical Controls (A.7): 14 controls including physical security perimeters, equipment security, secure disposal, and clear desk and clear screen."
+  },
+  {
+    "id": "ISO27001-ANNEX-A-TECHNOLOGICAL",
+    "title": "ISO 27001:2022 — Annex A: Technological Controls (A.8)",
+    "content": "Annex A – Technological Controls (A.8): 34 controls including access control, cryptography, operations security, application security, network security, and information transfer."
+  },
+  {
+    "id": "ISO42001-OVERVIEW",
+    "title": "ISO 42001:2023 — Overview",
+    "content": "ISO/IEC 42001:2023 specifies requirements for an artificial intelligence management system (AIMS). It provides a framework for organizations to develop and use AI responsibly and effectively, covering governance, risk management, and ethical considerations."
+  },
+  {
+    "id": "ISO42001-CLAUSE-4",
+    "title": "ISO 42001:2023 — Clause 4: Context of the Organization",
+    "content": "Clause 4 – Context of the Organization: Understanding the organization and its AI context, interested parties, and AIMS scope."
+  },
+  {
+    "id": "ISO42001-CLAUSE-5",
+    "title": "ISO 42001:2023 — Clause 5: Leadership",
+    "content": "Clause 5 – Leadership: Top management commitment, AI policy, roles, responsibilities, and authorities."
+  },
+  {
+    "id": "ISO42001-CLAUSE-6",
+    "title": "ISO 42001:2023 — Clause 6: Planning",
+    "content": "Clause 6 – Planning: Actions to address risks and opportunities, AI objectives, and planning to achieve them."
+  },
+  {
+    "id": "ISO42001-CLAUSE-7",
+    "title": "ISO 42001:2023 — Clause 7: Support",
+    "content": "Clause 7 – Support: Resources, competence, awareness, communication, and documented information."
+  },
+  {
+    "id": "ISO42001-CLAUSE-8",
+    "title": "ISO 42001:2023 — Clause 8: Operation",
+    "content": "Clause 8 – Operation: Operational planning and control, risk assessment, and risk treatment for AI systems."
+  },
+  {
+    "id": "ISO42001-CLAUSE-9",
+    "title": "ISO 42001:2023 — Clause 9: Performance Evaluation",
+    "content": "Clause 9 – Performance Evaluation: Monitoring, measurement, analysis, internal audit, and management review."
+  },
+  {
+    "id": "ISO42001-CLAUSE-10",
+    "title": "ISO 42001:2023 — Clause 10: Improvement",
+    "content": "Clause 10 – Improvement: Nonconformity, corrective action, and continual improvement."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-LEADERSHIP",
+    "title": "ISO 42001:2023 — Annex A: Leadership Domain",
+    "content": "Annex A – Leadership Domain: AI policy, accountability, and alignment with organizational strategy."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-PLANNING",
+    "title": "ISO 42001:2023 — Annex A: Planning Domain",
+    "content": "Annex A – Planning Domain: AI risk assessment, impact assessment, and data governance."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-SUPPORT",
+    "title": "ISO 42001:2023 — Annex A: Support Domain",
+    "content": "Annex A – Support Domain: AI competence, awareness, and documentation."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-OPERATION",
+    "title": "ISO 42001:2023 — Annex A: Operation Domain",
+    "content": "Annex A – Operation Domain: AI system design, development, deployment, and monitoring."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-PERFORMANCE",
+    "title": "ISO 42001:2023 — Annex A: Performance Evaluation Domain",
+    "content": "Annex A – Performance Evaluation Domain: AI system testing, validation, and internal audit."
+  },
+  {
+    "id": "ISO42001-ANNEX-A-IMPROVEMENT",
+    "title": "ISO 42001:2023 — Annex A: Improvement Domain",
+    "content": "Annex A – Improvement Domain: Nonconformity, corrective action, and continual AI improvement."
+  },
+  {
+    "id": "PCI-DSS-OVERVIEW",
+    "title": "PCI DSS v4.0 — Overview",
+    "content": "PCI DSS v4.0 is the Payment Card Industry Data Security Standard. It consists of 12 high-level requirements organized into 6 control objectives: Build and Maintain a Secure Network, Protect Cardholder Data, Maintain a Vulnerability Management Program, Implement Strong Access Control Measures, Regularly Monitor and Test Networks, and Maintain an Information Security Policy. Applies to all entities that store, process, or transmit cardholder data or sensitive authentication data."
+  },
+  {
+    "id": "PCI-DSS-REQ1",
+    "title": "PCI DSS v4.0 — Requirement 1: Install and Maintain Network Security Controls",
+    "content": "Requirement 1: Install and maintain network security controls. Includes defining network security policies, using firewalls, restricting inbound/outbound traffic, and documenting network diagrams. Control IDs: 1.1, 1.2, 1.3, 1.4."
+  },
+  {
+    "id": "PCI-DSS-REQ2",
+    "title": "PCI DSS v4.0 — Requirement 2: Apply Secure Configurations to All System Components",
+    "content": "Requirement 2: Apply secure configurations to all system components. Includes hardening, changing default passwords, and maintaining configuration standards. Control IDs: 2.1, 2.2, 2.3."
+  },
+  {
+    "id": "PCI-DSS-REQ3",
+    "title": "PCI DSS v4.0 — Requirement 3: Protect Stored Account Data",
+    "content": "Requirement 3: Protect stored account data. Includes encryption of cardholder data at rest, key management, and limiting storage. Control IDs: 3.1, 3.2, 3.3, 3.4, 3.5."
+  },
+  {
+    "id": "PCI-DSS-REQ4",
+    "title": "PCI DSS v4.0 — Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission",
+    "content": "Requirement 4: Protect cardholder data with strong cryptography during transmission over open, public networks. Requires strong encryption (e.g., TLS) for all transmission. Control IDs: 4.1, 4.2."
+  },
+  {
+    "id": "PCI-DSS-REQ5",
+    "title": "PCI DSS v4.0 — Requirement 5: Protect All Systems and Networks from Malicious Software",
+    "content": "Requirement 5: Protect all systems and networks from malicious software. Deploy anti-malware solutions, keep them updated, and perform periodic scans. Control IDs: 5.1, 5.2, 5.3."
+  },
+  {
+    "id": "PCI-DSS-REQ6",
+    "title": "PCI DSS v4.0 — Requirement 6: Develop and Maintain Secure Systems and Software",
+    "content": "Requirement 6: Develop and maintain secure systems and software. Includes secure coding practices, vulnerability management, and patch management. Control IDs: 6.1, 6.2, 6.3, 6.4, 6.5."
+  },
+  {
+    "id": "PCI-DSS-REQ7",
+    "title": "PCI DSS v4.0 — Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know",
+    "content": "Requirement 7: Restrict access to system components and cardholder data by business need to know. Implement role-based access controls and least privilege. Control IDs: 7.1, 7.2, 7.3."
+  },
+  {
+    "id": "PCI-DSS-REQ8",
+    "title": "PCI DSS v4.0 — Requirement 8: Identify Users and Authenticate Access to System Components",
+    "content": "Requirement 8: Identify users and authenticate access to system components. Strong authentication, unique IDs, password policies, and MFA for remote access. Control IDs: 8.1, 8.2, 8.3, 8.4, 8.5, 8.6."
+  },
+  {
+    "id": "PCI-DSS-REQ9",
+    "title": "PCI DSS v4.0 — Requirement 9: Restrict Physical Access to Cardholder Data",
+    "content": "Requirement 9: Restrict physical access to cardholder data. Physical access controls, visitor management, media protection. Control IDs: 9.1, 9.2, 9.3, 9.4, 9.5."
+  },
+  {
+    "id": "PCI-DSS-REQ10",
+    "title": "PCI DSS v4.0 — Requirement 10: Log and Monitor All Access to System Components and Cardholder Data",
+    "content": "Requirement 10: Log and monitor all access to system components and cardholder data. Audit logging, review of logs, file integrity monitoring. Control IDs: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7."
+  },
+  {
+    "id": "PCI-DSS-REQ11",
+    "title": "PCI DSS v4.0 — Requirement 11: Test Security of Systems and Networks Regularly",
+    "content": "Requirement 11: Test security of systems and networks regularly. Vulnerability scanning, penetration testing, intrusion detection/prevention. Control IDs: 11.1, 11.2, 11.3, 11.4, 11.5, 11.6."
+  },
+  {
+    "id": "PCI-DSS-REQ12",
+    "title": "PCI DSS v4.0 — Requirement 12: Support Information Security with Organizational Policies and Programs",
+    "content": "Requirement 12: Support information security with organizational policies and programs. Information security policy, awareness training, incident response, and third-party management. Control IDs: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9, 12.10."
+  }
+]
