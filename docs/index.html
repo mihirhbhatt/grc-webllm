@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRC Copilot — WebLLM + Mic</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "@mlc-ai/web-llm": "https://esm.run/@mlc-ai/web-llm"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="app">
+    <div class="main">
+      <header class="topbar">
+        <h1>Your GRC Copilot</h1>
+        <div class="badges">
+          <span id="model-status" class="badge">Model: idle</span>
+          <span id="kb-status" class="badge">Knowledge: idle</span>
+          <span id="mic-status" class="badge">Mic: idle</span>
+        </div>
+        <div class="top-actions">
+          <label class="model-picker" for="model-select">
+            <span>Model</span>
+            <select id="model-select" aria-label="Select WebLLM model">
+              <option value="Llama-3.1-8B-Instruct-q4f32_1-MLC">Llama 3.1 8B</option>
+              <option value="Llama-3.2-1B-Instruct-q4f32_1-MLC">Llama 3.2 1B</option>
+              <option value="Llama-3.2-3B-Instruct-q4f32_1-MLC">Llama 3.2 3B</option>
+              <option value="Hermes-2-Pro-Llama-3-8B-q4f32_1-MLC">Hermes 2 Pro Llama 3 8B</option>
+              <option value="Phi-3.5-mini-instruct-q4f32_1-MLC">Phi 3.5 Mini</option>
+              <option value="Phi-3-mini-4k-instruct-q4f32_1-MLC">Phi 3 Mini</option>
+              <option value="gemma-2-2b-it-q4f32_1-MLC">Gemma 2 2B</option>
+              <option value="Mistral-7B-Instruct-v0.3-q4f32_1-MLC">Mistral 7B v0.3</option>
+              <option value="Hermes-2-Pro-Mistral-7B-q4f16_1-MLC">Hermes 2 Pro Mistral 7B</option>
+              <option value="Qwen3-1.7B-q4f32_1-MLC">Qwen3 1.7B</option>
+              <option value="Qwen3-4B-q4f32_1-MLC">Qwen3 4B</option>
+              <option value="Qwen3-8B-q4f32_1-MLC">Qwen3 8B</option>
+            </select>
+          </label>
+          <button id="load-kb-btn">Reload KB</button>
+          <button id="load-model-btn">Load WebLLM</button>
+          <button id="mic-btn" disabled>🎤 Talk</button>
+          <button id="clear-btn">Clear</button>
+        </div>
+      </header>
+      <div class="model-progress-container" id="model-progress-container">
+        <div class="model-progress-bar" id="model-progress-bar"></div>
+        <span class="model-progress-text" id="model-progress-text">0%</span>
+      </div>
+      <div class="chat" id="chat"></div>
+      <footer class="composer">
+        <textarea id="input" rows="3" placeholder="Type or dictate a GRC question..."></textarea>
+        <div class="composer-buttons">
+          <button id="send-btn" disabled>Send</button>
+        </div>
+      </footer>
+      <div id="status">Initializing...</div>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
